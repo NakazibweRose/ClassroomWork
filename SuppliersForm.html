@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplies Form</title>
+    <link rel="stylesheet" href="SuppliersForm.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            
+            <a href="#">Dashboard</a>
+            <a href="SalesRegistration.html">Sales Registration</a>
+            <a href="SuppliersRegistration.html">Suppliers Registration</a>
+            <a href="SuppliersForm.html" class="active">Suppliers Form</a>
+        </div>
+
+        <div class="main-content">
+            <form class="supplies-card">
+                <h1>SUPPLIERS FORM</h1>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Supplier's name</label>
+                        <input type="text" placeholder="Supplier's name">
+                    </div>
+                    <div class="input-group">
+                        <label>Suppliers Id</label>
+                        <input type="number" placeholder="ID number">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Phone number</label>
+                        <input type="tel" placeholder="Enter Phone Number">
+                    </div>
+                    <div class="input-group">
+                        <label>Supplying date</label>
+                        <input type="date">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="your email">
+                    </div>
+                </div>
+
+                <h4>ITEMS</h4>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Pdt Id</label>
+                        <input type="text" placeholder="ID">
+                    </div>
+                    <div class="input-group">
+                        <label>Quantity</label>
+                        <input type="number">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label>Unit Cost</label>
+                        <input type="number">
+                    </div>
+                    <div class="input-group">
+                        <label>Total Cost</label>
+                        <input type="number" readonly>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn-cancel">Cancel</button>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
